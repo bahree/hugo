@@ -1,0 +1,45 @@
+/*
+** MASTODON TOOTS
+*/
+.toot {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    /*border: 1px solid #656565;*/
+    border: 1px solid #510291;
+    border-radius: 10px;
+  }
+  .toot .date {
+    vertical-align: top;
+    margin-bottom: 0;
+  }
+  .toot-avatar { display: inline-block; }
+  /*.toot img { border: 1px solid black; }*/
+    .toot-avatar img {
+        width: 3.125rem;
+        height: 3.125rem;
+        border-radius: 50%;
+    }
+  
+  .toot .date {
+    display: inline-block;
+    font-size: 1.00rem;
+    /*font-weight: 600;*/
+    color: var(--acent-color);
+  }
+  
+  main .e-content .toot-photos img {
+    width: 100%;
+    max-width: 18.75rem;
+  }
+  .toot-social { margin-top: 1rem; }
+  
+  /* END TOOTS */
+
+
+.header-top .h-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  width: 21.875rem;
+}
